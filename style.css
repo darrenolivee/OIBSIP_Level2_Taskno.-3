@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    border: none;
+    border-radius: 0;
+    background-color: rgba(0, 0,  0, 0.2);
+    backdrop-filter: blur(20px);
+    margin: 0;
+}
+.navbar .navbar-brand
+{
+    color: brown;
+}
+.navbar  .navbar-brand
+{
+    font-size: 20px;
+    color: red;
+    font-family: 'Work Sans', sans-serif;
+}
+.head-box
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('messi\ wallpaper.jpg'), linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0, 0.7) );
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100% 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.head-box  .heading
+{
+    width: 100%;
+    margin-top: 5%;
+}
+.head-box  .heading h1
+{
+    font-size: 100px;
+    color: red;
+    font-family: 'Work San', sans-serif;
+}
+.head-box  .heading h3
+{
+    font-size: 50px;
+    color:red;
+    font-family: 'Work Sans', sans-serif;
+}
+.head-box  .heading h3 span
+{
+    color: floralwhite;
+    cursor: pointer;
+    transition: all  .2ms;
+}
+.head-box .heading h3 span:hover
+{
+    color:red;
+    background-color: aliceblue;
+}
+.head-box .heading p
+{
+    font-size: 30px;
+    color: cornsilk;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.head-box .heading p
+{
+    width: 40%;
+    font-weight: 300;
+    color: rgba (255,255,255,0.4);
+    font-family: 'Work Sans', sans-serif;
+    text-indent: 80px;
+    margin-top: 3%;
+}
+.container .row .col-sm-6
+{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container .row .col-sm-6 .center-block
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .row .col-sm-6 .center-block h1
+{
+    font-size: 40px;
+    color: red;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.container .row .col-sm-6 .center-block h3
+{
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+.container .row .col-sm-6 .center-block p
+{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: #000;
+    text-align: justify;
+    text-indent: 50px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+footer .container-fluid
+{
+    background-color:rgb(218, 129, 140);
+    padding: 50px 50px 0px 50px;
+    height: 120px;
+}
+footer.container-fluid .container .row .btn-primary 
+{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+footer .container-fluid .container .row .btn-primary 
+{
+    font-size: 20px;
+    color: rgba(240, 48, 179, 0.577);
+    font-family: 'Work Sans', sans-serif;
+    background-color: red;
+    font-weight: 300;
+    transition: all .5s;
+}
+footer .container-fluid .container .btn-primary 
+{
+    color: aliceblue;
+    background-color: royalblue
+}
